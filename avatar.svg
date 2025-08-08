@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="60" r="50" fill="#3498db"/>
+  <path d="M100 110 C140 110 170 140 170 170 L30 170 C30 140 60 110 100 110 Z" fill="#3498db"/>
+  <circle cx="80" cy="50" r="10" fill="white"/>
+  <circle cx="120" cy="50" r="10" fill="white"/>
+  <path d="M80 80 Q100 100 120 80" stroke="white" stroke-width="4" fill="none"/>
+  <text x="100" y="185" font-family="Arial" font-size="12" fill="white" text-anchor="middle">头像占位符</text>
+</svg>

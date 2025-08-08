@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的游戏 - 战机空战游戏</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .game-container {
+            padding: 100px 0;
+            background-color: white;
+        }
+
+        .game-embed {
+            width: 100%;
+            height: 700px;
+            border: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            font-size: 18px;
+        }
+
+        .back-button i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.svg" alt="个人Logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="index.html#about">关于我</a></li>
+                    <li><a href="index.html#games" class="active">我的游戏</a></li>
+                    <li><a href="index.html#videos">我的视频</a></li>
+                    <li><a href="index.html#contact">联系方式</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="game-container">
+        <div class="container">
+            <a href="index.html#games" class="back-button"><i class="fas fa-arrow-left"></i> 返回列表</a>
+            <h2>战机空战游戏</h2>
+            <iframe class="game-embed" src="GAME/deepseek_html_20250805_225510.html" title="战机空战游戏"></iframe>
+            <div class="game-description">
+                <h3>游戏介绍</h3>
+                <p>这是一款精心设计的空战射击游戏，玩家将控制战机在空中与敌人展开激烈战斗。游戏具有精美的视觉效果、流畅的操作体验和丰富的武器系统。通过击败敌人，玩家可以获得积分并升级武器，提升战斗力。游戏还包含多种敌机类型和关卡，挑战玩家的反应能力和策略思维。</p>
+                <h3>游戏特色</h3>
+                <ul>
+                    <li>精美的视觉效果和流畅的动画</li>
+                    <li>多种武器系统和升级选项</li>
+                    <li>不同类型的敌机和Boss</li>
+                    <li>具有挑战性的关卡设计</li>
+                    <li>直观的操作方式</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 [你的名字]. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

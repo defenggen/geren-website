@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的视频</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .video-container {
+            padding: 100px 0;
+            background-color: white;
+        }
+
+        .video-player {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            font-size: 18px;
+        }
+
+        .back-button i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.svg" alt="个人Logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="index.html#about">关于我</a></li>
+                    <li><a href="index.html#games">我的游戏</a></li>
+                    <li><a href="index.html#videos" class="active">我的视频</a></li>
+                    <li><a href="index.html#contact">联系方式</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="video-container">
+        <div class="container">
+            <a href="index.html#videos" class="back-button"><i class="fas fa-arrow-left"></i> 返回列表</a>
+            <h2>我的视频作品</h2>
+            <div class="video-player">
+                <video controls>
+                    <source src="V/视频.mp4" type="video/mp4">
+                    您的浏览器不支持视频播放。
+                </video>
+            </div>
+            <div class="video-description">
+                <h3>视频介绍</h3>
+                <p>这是我的视频作品，展示了[视频内容简介]。视频详细介绍了[视频主题]，包括[视频关键点1]、[视频关键点2]和[视频关键点3]。希望您喜欢这个视频，如果有任何问题或建议，请随时联系我。</p>
+                <h3>视频信息</h3>
+                <ul>
+                    <li>时长: [视频时长]</li>
+                    <li>格式: MP4</li>
+                    <li>分辨率: [视频分辨率]</li>
+                    <li>创建日期: [创建日期]</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 [你的名字]. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
