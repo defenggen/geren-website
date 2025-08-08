@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100">
+  <rect x="10" y="10" width="180" height="80" rx="10" fill="#3498db"/>
+  <text x="100" y="65" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">陈泽霖</text>
+  <text x="100" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">个人网站</text>
+</svg>

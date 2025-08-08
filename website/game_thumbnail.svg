@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300">
+  <rect x="0" y="0" width="500" height="300" fill="#1a1a2e"/>
+  <rect x="50" y="50" width="400" height="200" fill="#16213e" stroke="#0f3460" stroke-width="2"/>
+  <path d="M100 150 L150 100 L200 150 L150 200 Z" fill="#e94560"/>
+  <circle cx="350" cy="100" r="15" fill="#e94560"/>
+  <circle cx="400" cy="150" r="10" fill="#e94560"/>
+  <circle cx="300" cy="200" r="12" fill="#e94560"/>
+  <text x="250" y="150" font-family="Arial" font-size="24" fill="white" text-anchor="middle">战机空战游戏</text>
+  <text x="250" y="180" font-family="Arial" font-size="14" fill="white" text-anchor="middle">游戏缩略图占位符</text>
+</svg>
